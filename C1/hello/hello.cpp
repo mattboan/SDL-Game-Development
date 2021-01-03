@@ -16,6 +16,8 @@ SDL_Renderer * g_pRenderer = 0;
 int main(int argc, char * args[]) {
     //InitSDL
     if (SDL_Init(SDL_INIT_EVERYTHING) >= 0) {
+        //Move the resolution of the window into some other variables, 
+        //a constant, and possibly derivered from the argv
         g_pWindow = SDL_CreateWindow("Chapter 1 - Setting Up SDL2", 
             SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480,
             SDL_WINDOW_SHOWN);
