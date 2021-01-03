@@ -13,4 +13,5 @@ SDL2:
 sudo apt install libsdl2-dev
 ```
 
-## Make
+## Compile & Running
+Each chapter is either comprised of a single or multiple smaller lessons/tutorials. To make, compile, and run each of them contain hierarchical makefiles.
